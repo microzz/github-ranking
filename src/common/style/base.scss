@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: #3F51B5;
+  cursor: pointer;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3F51B5;
+  transform: scaleX(0);
+  transition: .3s ease-in-out;
+}
+a:hover::after {
+  transform: scaleX(1);
+  transition: .3s ease-in-out;
+}
+
+@media screen and (min-width: 500px) {
+  html, body {
+    // width: 70%;
+    margin: auto;
+  }
+}
