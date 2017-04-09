@@ -35,7 +35,7 @@
       <div v-show="isShowMenu" class="menu">
         <div class="aside">
           <div class="aside-title">
-            <h2>Language</h2>
+            <h2>Languages</h2>
           </div>
           <div class="aside-content">
             <div @click="search(item, index)" v-for="(item, index) of langs" :class="{current: index===currentIndex}" class="lang-name">{{ item }}</div>
@@ -177,6 +177,10 @@ export default {
           width: 100%;
           border-bottom: 1px solid rgba(0, 0, 0, .1);
           cursor: pointer;
+
+        }
+        .lang-name:hover {
+          background-color: #FFF8E1;
         }
         .pos {
           flex: 3;
@@ -222,6 +226,13 @@ export default {
     background-color: #2196F3;
     color: white;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
+    h1 {
+      transition: .3s;
+    }
+    h1:hover {
+      transform: rotate(6deg);
+      transition: .3s;
+    }
     i {
       position: absolute;
       display: inline-block;
@@ -254,6 +265,10 @@ export default {
       background: url('./common/icons/loading.svg') no-repeat;
       background-size: contain;
       animation: loading .6s linear infinite;
+    }
+
+    .item:hover {
+      background-color: #FAFAFA;
     }
 
     .item {
