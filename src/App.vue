@@ -234,6 +234,7 @@ export default {
       bottom: 15px;
       background: url('./common/icons/menu.svg') no-repeat;
       background-size: contain;
+      cursor: pointer;
     }
   }
 
