@@ -242,7 +242,7 @@ export default {
     }
     i.icon-menu {
       left: 10px;
-      bottom: 15px;
+      bottom: 12px;
       background: url('./common/icons/menu.svg') no-repeat;
       background-size: contain;
       cursor: pointer;
