@@ -29,7 +29,9 @@ GitHub不同语言热门项目排行。
 
 所以一定好处理好这些异步请求，不然就爬取不到信息缓存了。
 
-## About源代码地址：👉 [GitHub](https://github.com/microzz/github-ranking)个人网站：🔗[microzz-IT技术分享](https://microzz.com/)GitHub：🔗[microzz](https://github.com/microzz)
+## About源代码地址：👉 [GitHub](https://github.com/microzz/github-ranking) 
+个人网站：🔗[microzz-IT技术分享](https://microzz.com/) 
+GitHub：🔗[microzz](https://github.com/microzz)
 
 ## Build Setup
 
