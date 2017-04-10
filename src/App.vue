@@ -79,7 +79,7 @@ export default {
       infos: [],
       isLoading: false,
       isShowMenu: true,
-      langs: ['JavaScript', 'HTML', 'CSS', 'PHP', 'Java', 'Ruby', 'CoffeScript', 'Python', 'TypeScript', 'C#'],
+      langs: ['JavaScript', 'HTML', 'CSS', 'PHP', 'Java', 'Ruby', 'CoffeeScript', 'Python', 'TypeScript', 'C#'],
       lang: 'JavaScript',
       currentIndex: '',
       isShowAbout: false
