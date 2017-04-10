@@ -1,5 +1,5 @@
-# GitHub排行榜
-GitHub不同语言热门项目排行。
+# Vue GitHub排行榜
+GitHub不同语言热门项目排行，Vue做页面展示。
 
 ## 源代码
 源代码地址：🔗 [GitHub](https://github.com/microzz/github-ranking) 
