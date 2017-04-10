@@ -37,7 +37,7 @@ router.get('/github-ranking/:lang/:sorts', (req, res) => {
     updateDate: [],
     links: []
   };
-  let url = `https://github.com/search?l=${language.replace('#', '%23')}&o=desc&q=javascript&s=${sort}&type=Repositories&utf8=%E2%9C%93`;
+  let url = `https://github.com/search?l=${language.replace('#', '%23')}&o=desc&q=${language.replace('#', '%23')}&s=${sort}&type=Repositories&utf8=%E2%9C%93`;
   let options = {
     url,
     transform(body) {
